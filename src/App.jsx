@@ -1,3 +1,4 @@
+import ItemListContainer from "./components/ItemListContainer"
 import NavBar from "./components/NavBar"
 
 const App = () => {
@@ -6,8 +7,8 @@ const App = () => {
       <header>
         <NavBar/>
       </header>
-      <main className="mx-auto max-w-[1400px]">
-        
+      <main className="mx-auto max-w-[1400px] pt-[100px]">
+        <ItemListContainer greeting={"Welcome to Gaming Components!"}/>
       </main>
     </div>
   )
