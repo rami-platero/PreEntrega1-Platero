@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = "./src/data/products.json"
+const URL = "/src/data/products.json"
 
 export const getProducts = async () => {
     const res = await axios.get(URL)
