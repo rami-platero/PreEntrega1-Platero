@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      gridTemplateColumns: {
+        'products': 'repeat(auto-fill, minmax(23rem, 1fr))'
+      }
+    },
   },
   plugins: [],
 }
