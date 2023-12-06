@@ -1,23 +1,32 @@
-import axios from "axios";
+import data from './data.json'
 
-const URL = "/src/data/products.json"
-
-export const getProducts = async () => {
-    const res = await axios.get(URL)
-    return res.data
+export const getProducts = () => {
+    return new Promise((resolve) => {
+        setTimeout(()=>{
+            resolve(data)
+        },300)
+    })
 }
 
 export const getProductsByCategory = async (category) => {
-    const res = await axios.get(URL)
-    const products = res.data.filter((product)=>{
+    const products = await new Promise((resolve) => {
+        setTimeout(()=>{
+            resolve(data)
+        },300)
+    })
+    const filteredProducts = products.filter((product)=>{
         return product.category.id === category
     })
-    return products
+    return filteredProducts
 }
 
 export const getProductById = async (id) => {
-    const res = await axios.get(URL)
-    const product = res.data.find((p)=>{
+    const products = await new Promise((resolve) => {
+        setTimeout(()=>{
+            resolve(data)
+        },300)
+    })
+    const product = products.find((p)=>{
         return p.id === Number(id)
     })
     return product
