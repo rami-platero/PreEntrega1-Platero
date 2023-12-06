@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
 import CartWidget from "./CartWidget";
+import Logo from '../../public/favicon.png'
 
 const NavBar = () => {
   return (
     <nav className="fixed top-0 w-full bg-black p-4 min-h-[60px] z-50">
       <div className="mx-auto w-full max-w-[1400px] flex justify-between items-center">
         <Link to={"/"}>
-          <img className="max-w-[40px]" src="../public/favicon.png" />
+          <img className="max-w-[40px]" src={Logo} />
         </Link>
         <ul className="flex gap-4 text-sm">
           <li>
