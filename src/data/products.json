@@ -1,0 +1,68 @@
+[
+    {
+      "id": 1,
+      "name": "MSI GeForce RTX 4090 GAMING X TRIO 24G",
+      "category": {
+        "name": "Graphics Card",
+        "id": "GPU"
+      },
+      "price": 1700,
+      "image": "https://d2r7p0safdzsvt.cloudfront.net/6b72b77b2b7fdb9fc0d7254a2576fa31318fc3fc2415e9a37babba149fb95004",
+      "description": "The NVIDIA® GeForce RTX™ 4090 is the ultimate GeForce GPU. It brings an enormous leap in performance, efficiency, and AI-powered graphics with DLSS 3. Experience ultra-high performance gaming, incredibly detailed virtual worlds with ray tracing, unprecedented productivity, and new ways to create. It’s powered by the NVIDIA Ada Lovelace architecture and comes with 24 GB of G6X memory to deliver the ultimate experience for gamers and creators."
+    },
+    {
+      "id": 2,
+      "name": "MSI Radeon RX 6650 XT MECH 2X 8G OC",
+      "category": {
+        "name": "Graphics Card",
+        "id": "GPU"
+      },
+      "price": 235,
+      "image": "https://d2r7p0safdzsvt.cloudfront.net/41ec60029448bf5a0bdd30f2c765f500ca161076601e269e87b2f12c9b375a6e",
+      "description": "The new AMD Radeon™ RX 6650 XT graphic cards are optimized for DirectStorage to help reduce load times in games and bring expansive worlds to life in amazing detail. The Radeon™ RX 6000 Series graphic cards take full advantage of the latest innovations in upscaling technologies such as AMD FidelityFX™ Super Resolution2 or the new Radeon™ Super Resolution1. Whether it is AAA gaming or eSports, experience all your games without compromise."
+    },
+    {
+      "id": 3,
+      "name": "MSI B450 TOMAHAWK MAX II",
+      "category": {
+        "name": "Motherboard",
+        "id": "motherboard"
+      },
+      "price": 120,
+      "image": "https://d2r7p0safdzsvt.cloudfront.net/8023348e022fd03baad827f4bb1ceb1ddedee7fd56338e37ddbaffbb13694747",
+      "description": "Supports 1st, 2nd and 3rd Gen AMD Ryzen™ / Ryzen™ with Radeon™ Vega Graphics and 2nd Gen AMD Ryzen™ with Radeon™ Graphics / Athlon™ with Radeon™ Vega Graphics Desktop Processors for Socket AM4.Supports DDR4 Memory, up to 4133(OC) MHz.Extended Heatsink Design: MSI extended PWM heatsink and enhanced circuit design ensures even high-end processors to run in full speed."
+    },
+    {
+      "id": 4,
+      "name": "Gigabyte Z690 AORUS ULTRA",
+      "category": {
+        "name": "Motherboard",
+        "id": "motherboard"
+      },
+      "price": 250,
+      "image": "https://d2r7p0safdzsvt.cloudfront.net/f0df37e4fdc5a8841986400d36b83557b24d4af32e3d1505f2d6d4dbde780d6d",
+      "description": "Rule supreme with the Z690 AORUS gaming motherboards. The new king of gaming platform continues the legendary AORUS bloodline with the most robust power delivery and dominant thermal design, glorified with the complete memory overclocking technology to crown your PC with the best Alder Lake’s performance in all its gaming glory."
+    },
+    {
+      "id": 5,
+      "name": "ASUS ROG Keris Wireless EVA Edition",
+      "category": {
+        "name": "Mouse",
+        "id": "mouse"
+      },
+      "price": 106,
+      "image": "https://d2r7p0safdzsvt.cloudfront.net/295e811225e866e900cc9f5b75978e468bcf6023a0338d301ce018d7298c277f",
+      "description": "The Republic of Gamers is launching new equipment for the EVANGELION project. The ROG Keris Wireless EVA Edition weighs just 79 grams and sports the EVA-01's striking green and purple color scheme. With a 16,000 dpi ROG sensor and ROG push-fit switch sockets, users can aim with extreme precision and customize the amount trigger-force required to deliver a menacing payload."
+    },
+    {
+      "id": 6,
+      "name": "ASUS VZ279HEG1R Gaming Monitor – 27 inch Full HD",
+      "category": {
+        "name": "Monitor",
+        "id": "monitor"
+      },
+      "price": 130,
+      "image": "https://d2r7p0safdzsvt.cloudfront.net/852f26fe04412314126cfa65573737d0720d6b1bf8c07a503a9c176076011fc5",
+      "description": "27-inch Full HD (1920 x 1080) IPS gaming monitor with 75Hz refresh rate designed for gamers and immersive gameplay.ASUS Extreme Low Motion Blur (ELMB ™) technology enables a 1ms response time (MPRT) together with Adaptive-sync, eliminating ghosting and tearing for sharp gaming visuals with high frame rates."
+    }
+  ]
