@@ -22,4 +22,8 @@
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     background-color: #b8b8b8;
   }
+
+  input::-webkit-inner-spin-button{
+    appearance: none;
+  }
 }
