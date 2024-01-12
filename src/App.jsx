@@ -1,8 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import ItemListContainer from "./components/ItemListContainer";
 import NavBar from "./components/NavBar";
-import ItemDetailContainer from "./components/ItemDetailContainer";
 import NotFound from "./components/NotFound";
+import CartPage from "./components/CartPage";
+import ProductListContainer from "./components/Products/ProductListContainer";
+import ItemDetailContainer from "./components/SingleProduct/ItemDetailContainer";
+import Checkout from "./components/Checkout";
 
 const App = () => {
   return (
@@ -16,17 +18,23 @@ const App = () => {
           <Route
             path="/"
             element={
-              <ItemListContainer greeting={"Welcome to Gaming Components!"} />
+              <ProductListContainer
+                greeting={"Welcome to Gaming Components!"}
+              />
             }
           />
           <Route
             path="/category/:category"
             element={
-              <ItemListContainer greeting={"Welcome to Gaming Components!"} />
+              <ProductListContainer
+                greeting={"Welcome to Gaming Components!"}
+              />
             }
           />
           <Route path="/item/:id" element={<ItemDetailContainer />} />
-          <Route path="*" element={<NotFound/>} />
+          <Route path="/cart" element={<CartPage />} />
+          <Route path="/checkout" element={<Checkout/>} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </div>
